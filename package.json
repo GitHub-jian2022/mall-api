@@ -24,8 +24,8 @@
   "license": "ISC",
   "apidoc": {
     "title": "apidoc文档",
-    "url": "http://127.0.0.1:8090/api",
-    "sampleUrl": "http://127.0.0.1:8090/api",
+    "url": "http://47.100.138.242:8085/api",
+    "sampleUrl": "http://47.100.138.242:8085/api",
     "version": "1.0.0"
   }
 }

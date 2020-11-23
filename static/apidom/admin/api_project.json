@@ -1,7 +1,7 @@
 {
   "title": "apidoc文档",
-  "url": "http://127.0.0.1:8090/admin",
-  "sampleUrl": "http://127.0.0.1:8090/admin",
+  "url": "http://47.100.138.242:8085/admin",
+  "sampleUrl": "http://47.100.138.242:8085/admin",
   "version": "1.0.0",
   "name": "malladmin",
   "description": "",
@@ -9,7 +9,7 @@
   "apidoc": "0.3.0",
   "generator": {
     "name": "apidoc",
-    "time": "2020-11-23T08:34:38.037Z",
+    "time": "2020-11-23T10:36:46.113Z",
     "url": "https://apidocjs.com",
     "version": "0.25.0"
   }

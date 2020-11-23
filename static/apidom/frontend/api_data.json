@@ -71,7 +71,7 @@
     "groupTitle": "Cart",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/cart"
+        "url": "http://47.100.138.242:8085/api/cart"
       }
     ]
   },
@@ -147,7 +147,7 @@
     "groupTitle": "Cart",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/cart"
+        "url": "http://47.100.138.242:8085/api/cart"
       }
     ]
   },
@@ -272,7 +272,7 @@
     "groupTitle": "Cart",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/cart"
+        "url": "http://47.100.138.242:8085/api/cart"
       }
     ]
   },
@@ -335,7 +335,7 @@
     "groupTitle": "Cart",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/cart/count"
+        "url": "http://47.100.138.242:8085/api/cart/count"
       }
     ]
   },
@@ -406,7 +406,7 @@
     "groupTitle": "Categories",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/categories"
+        "url": "http://47.100.138.242:8085/api/categories"
       }
     ]
   },
@@ -511,7 +511,7 @@
     "groupTitle": "Goods",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/goods/detail"
+        "url": "http://47.100.138.242:8085/api/goods/detail"
       }
     ]
   },
@@ -588,7 +588,7 @@
     "groupTitle": "Goods",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/goods/search"
+        "url": "http://47.100.138.242:8085/api/goods/search"
       }
     ]
   },
@@ -652,7 +652,7 @@
     "groupTitle": "Index",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/index-infos"
+        "url": "http://47.100.138.242:8085/api/index-infos"
       }
     ]
   },
@@ -742,7 +742,7 @@
     "groupTitle": "Order",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/order"
+        "url": "http://47.100.138.242:8085/api/order"
       }
     ]
   },
@@ -818,7 +818,7 @@
     "groupTitle": "Order",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/order"
+        "url": "http://47.100.138.242:8085/api/order"
       }
     ]
   },
@@ -951,7 +951,7 @@
     "groupTitle": "Order",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/order"
+        "url": "http://47.100.138.242:8085/api/order"
       }
     ]
   },
@@ -1042,7 +1042,7 @@
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/address"
+        "url": "http://47.100.138.242:8085/api/address"
       }
     ]
   },
@@ -1091,7 +1091,7 @@
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/collection"
+        "url": "http://47.100.138.242:8085/api/collection"
       }
     ]
   },
@@ -1167,7 +1167,7 @@
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/address"
+        "url": "http://47.100.138.242:8085/api/address"
       }
     ]
   },
@@ -1243,7 +1243,7 @@
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/collection"
+        "url": "http://47.100.138.242:8085/api/collection"
       }
     ]
   },
@@ -1319,7 +1319,7 @@
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/collection/goodsId"
+        "url": "http://47.100.138.242:8085/api/collection/goodsId"
       }
     ]
   },
@@ -1355,7 +1355,7 @@
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/address/id"
+        "url": "http://47.100.138.242:8085/api/address/id"
       }
     ]
   },
@@ -1391,7 +1391,7 @@
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/address"
+        "url": "http://47.100.138.242:8085/api/address"
       }
     ]
   },
@@ -1427,7 +1427,7 @@
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/collection"
+        "url": "http://47.100.138.242:8085/api/collection"
       }
     ]
   },
@@ -1483,7 +1483,7 @@
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/collection/count/goodsId"
+        "url": "http://47.100.138.242:8085/api/collection/count/goodsId"
       }
     ]
   },
@@ -1588,7 +1588,7 @@
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/user"
+        "url": "http://47.100.138.242:8085/api/user"
       }
     ]
   },
@@ -1644,7 +1644,7 @@
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/login"
+        "url": "http://47.100.138.242:8085/api/login"
       }
     ]
   },
@@ -1687,7 +1687,7 @@
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/register"
+        "url": "http://47.100.138.242:8085/api/register"
       }
     ]
   },
@@ -1764,7 +1764,7 @@
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/api/user"
+        "url": "http://47.100.138.242:8085/api/user"
       }
     ]
   }

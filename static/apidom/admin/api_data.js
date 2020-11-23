@@ -58,7 +58,7 @@ define({ "api": [
     "groupTitle": "Categories",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/categories"
+        "url": "http://47.100.138.242:8085/admin/categories"
       }
     ]
   },
@@ -134,7 +134,7 @@ define({ "api": [
     "groupTitle": "Categories",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/categories"
+        "url": "http://47.100.138.242:8085/admin/categories"
       }
     ]
   },
@@ -205,7 +205,7 @@ define({ "api": [
     "groupTitle": "Categories",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/categories"
+        "url": "http://47.100.138.242:8085/admin/categories"
       }
     ]
   },
@@ -254,7 +254,7 @@ define({ "api": [
     "groupTitle": "Categories",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/categories/level"
+        "url": "http://47.100.138.242:8085/admin/categories/level"
       }
     ]
   },
@@ -331,7 +331,7 @@ define({ "api": [
     "groupTitle": "Categories",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/categories/search"
+        "url": "http://47.100.138.242:8085/admin/categories/search"
       }
     ]
   },
@@ -429,7 +429,7 @@ define({ "api": [
     "groupTitle": "Goods",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/goods"
+        "url": "http://47.100.138.242:8085/admin/goods"
       }
     ]
   },
@@ -505,7 +505,7 @@ define({ "api": [
     "groupTitle": "Goods",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/goods"
+        "url": "http://47.100.138.242:8085/admin/goods"
       }
     ]
   },
@@ -568,7 +568,7 @@ define({ "api": [
     "groupTitle": "Goods",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/goods/all"
+        "url": "http://47.100.138.242:8085/admin/goods/all"
       }
     ]
   },
@@ -673,7 +673,7 @@ define({ "api": [
     "groupTitle": "Goods",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/goods/detail"
+        "url": "http://47.100.138.242:8085/admin/goods/detail"
       }
     ]
   },
@@ -750,7 +750,7 @@ define({ "api": [
     "groupTitle": "Goods",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/goods/search"
+        "url": "http://47.100.138.242:8085/admin/goods/search"
       }
     ]
   },
@@ -827,7 +827,7 @@ define({ "api": [
     "groupTitle": "Roles",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/roles/search"
+        "url": "http://47.100.138.242:8085/admin/roles/search"
       }
     ]
   },
@@ -952,7 +952,7 @@ define({ "api": [
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/user/search"
+        "url": "http://47.100.138.242:8085/admin/user/search"
       }
     ]
   },
@@ -1057,7 +1057,7 @@ define({ "api": [
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/user"
+        "url": "http://47.100.138.242:8085/admin/user"
       }
     ]
   },
@@ -1113,7 +1113,7 @@ define({ "api": [
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/login"
+        "url": "http://47.100.138.242:8085/admin/login"
       }
     ]
   },
@@ -1162,7 +1162,7 @@ define({ "api": [
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/user/upload"
+        "url": "http://47.100.138.242:8085/admin/user/upload"
       }
     ]
   },
@@ -1225,7 +1225,7 @@ define({ "api": [
     "groupTitle": "Users",
     "sampleRequest": [
       {
-        "url": "http://127.0.0.1:8090/admin/user"
+        "url": "http://47.100.138.242:8085/admin/user"
       }
     ]
   }
