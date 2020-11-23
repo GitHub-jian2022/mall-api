@@ -60,19 +60,3 @@ app.listen(port, () => {
 //定时清理图片
 const { scheduleCronstyle } = require('./utils/schedule')
 scheduleCronstyle('static/images/goods')
-
-
-
-//apidom生成文档指令
-//命令格式为apidoc -i 项目实际目录 -o 希望输出到的目录
-//例如apidoc -i D:\workspace\test -o D:\api-output
-
-// 根目录下输入指令
-
-// 前台接口文档 
-// 1、修改package.json文件 apidoc的url与sampleUrl为    http://127.0.0.1:8090/api
-// 2、apidoc -i ./router/frontend -o ./static/apidom/frontend
-
-// 后台系统接口文档 修改package.json文件 apidoc的url与sampleUrl为
-// 1、修改package.json文件 apidoc的url与sampleUrl为    http://127.0.0.1:8090/admin
-// 2、apidoc -i ./router/admin -o ./static/apidom/admin
