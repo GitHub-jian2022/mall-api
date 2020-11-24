@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : root
-Source Server Version : 50726
+Source Server         : remote
+Source Server Version : 50729
 Source Host           : localhost:3306
 Source Database       : mall
 
 Target Server Type    : MYSQL
-Target Server Version : 50726
+Target Server Version : 50729
 File Encoding         : 65001
 
-Date: 2020-11-23 15:59:25
+Date: 2020-11-24 10:18:49
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -52,9 +52,9 @@ CREATE TABLE `banner` (
 -- ----------------------------
 -- Records of banner
 -- ----------------------------
-INSERT INTO `banner` VALUES ('1', '/images/goods/banner1.jpg', 'https://juejin.im');
-INSERT INTO `banner` VALUES ('2', '/images/goods/banner2.jpg.webp', 'https://segmentfault.com');
-INSERT INTO `banner` VALUES ('3', '/images/goods/banner3.jpg.webp', 'https://github.com');
+INSERT INTO `banner` VALUES ('1', '/images/banner/banner1.jpg', 'https://juejin.im');
+INSERT INTO `banner` VALUES ('2', '/images/banner/banner2.jpg.webp', 'https://segmentfault.com');
+INSERT INTO `banner` VALUES ('3', '/images/banner/banner3.jpg.webp', 'https://github.com');
 
 -- ----------------------------
 -- Table structure for `cart`
