@@ -3,6 +3,7 @@ let router = new Router()
 const Controller = require('../../controller/frontend/user')
 
 const auth = require('../../middleware')
+const { createUpload } = require('../../utils/upload')
 
 /**
  * @api {POST}  /login 登录
@@ -86,6 +87,29 @@ router.get('/user', auth,  Controller.getUserInfo)
  */
 router.post('/user', auth,  Controller.update)
 
+//上传图片预览接口
+router.post('/user/upload/preview', (ctx) => {
+  ctx.body = {
+    code: 200,
+    msg: '上传成功'
+  }
+})
+
+/**
+ * @api {POST}  /user/upload 上传头像
+ * @apiDescription  上传头像接口
+ * @apiName updateAvatar
+ * @apiGroup    Users
+ * @apiHeader {String} token 请求头必须携带字段token
+ * @apiParam    {formData}    formData (必填)
+ * @apiExample  {curl} Example usage:
+ *     curl -i /user
+ *     {
+ *        formData: file,
+ *     } 
+ * @apiVersion  1.0.0
+ */
+router.post('/user/upload',  createUpload('static/images/avatar/').single('file'), Controller.updateAvatar)
 
 /**
  * @api {POST}  /register 注册
@@ -186,6 +210,8 @@ router.delete('/address', auth, Controller.deleteAddress)
  * @apiDescription  获取收藏接口
  * @apiName getCollection
  * @apiGroup    Users
+ * @apiParam    {Number}    page 页码(必填)
+ * @apiParam    {Number}    size 页数(选填)
  * @apiHeader {String} token 请求头必须携带字段token
  * @apiExample  {curl} Example usage:
  *     curl -i /collection

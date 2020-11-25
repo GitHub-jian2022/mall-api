@@ -10,7 +10,7 @@ module.exports = {
     const userId = getUserId(ctx)
     const params = {
       userId,
-      ...ctx.request.body
+      ...ctx.request.query
     }
     const res = await Service.getCartByUserId(params)
     if (res) {

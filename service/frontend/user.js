@@ -50,6 +50,18 @@ module.exports = {
       })
     })
   },
+
+  // 上传头像
+  updateAvatar(params) {
+    const { id, avatar } = params
+    const sql = `UPDATE user SET avatar='${avatar}' WHERE id='${id}'`
+    return new Promise((resolve, reject) => {
+      connection.query(sql, (err, result) => {
+        err && reject(err)
+        resolve(result)
+      })
+    })
+  },
   
   register(params) {
     console.log('register: ', params);
@@ -116,10 +128,14 @@ module.exports = {
 
   //获取收藏
   getCollection(params) {
+    console.log('params: ', params);
     const { userId, page=1, size=10 } = params
     const start = (page - 1) * size;
     const end = size
-    const sql = `select * from collection,goods where collection.userId=${userId} AND collection.goodsId=goods.goodsId limit ${start},${end}`
+    const sql1 = `select * from collection,goods where collection.userId=${userId} AND collection.goodsId=goods.goodsId limit ${start},${end}`
+    
+    let sql2 = `select COUNT(1) from collection where userId=${userId}`
+    const sql = `${sql1};${sql2}`;
     return new Promise((resolve,reject) => {
       connection.query(sql, (err, result) => {
         err && reject(err);

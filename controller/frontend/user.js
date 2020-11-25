@@ -79,6 +79,25 @@ module.exports = {
     }
   },
 
+  // 上传头像
+  async updateAvatar(ctx) {
+    const { body, file } = ctx.req
+    const params = {
+      id: body.id,
+      avatar: `/images/avatar/${file.filename}`
+    }
+    const result = await Service.updateAvatar(params)
+    if(result['affectedRows'] > 0) {
+      ctx.body = {
+        code: 200,
+        msg: 'success',
+        data: {
+          avatar: params.avatar
+        }
+      }
+    }
+  },
+
   // 用户注册
   async register(ctx) {
     let { phone, password } = ctx.request.body
@@ -190,15 +209,19 @@ module.exports = {
     const userId = getUserId(ctx)
     const params = {
       userId,
-      ...ctx.request.body
+      ...ctx.request.query
     }
     const result = await Service.getCollection(params)
     if(result) {
-      const data = result;
+      const data = result[0]
+      const total = result[1][0]['COUNT(1)']
       ctx.body = { 
         code: 200,
         msg: 'success',
-        data
+        data: {
+          data,
+          total
+        },
       }
     } else {
       const error = new HttpException('服务器异常')

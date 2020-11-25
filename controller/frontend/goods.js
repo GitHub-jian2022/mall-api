@@ -2,10 +2,13 @@ const Service = require('../../service/frontend/goods');
 // 导入异常类
 const { HttpException, ParameterException } = require('../../global/http-exception')
 
+const fs = require('fs');
+const path = require('path');
+
 module.exports = {
 
   async getGoodsById(ctx) {
-    console.log('ctx.params: ', ctx.params);
+    // console.log('ctx.params: ', ctx.params);
     const { goodsId } = ctx.params
     if(!goodsId) {
       const error = new ParameterException('商品id不能为空', 10001)
@@ -13,12 +16,14 @@ module.exports = {
     }
     const res = await Service.getGoodsById(goodsId)
     if (res) {
-      const data = res
+      let json = await JSON.parse(fs.readFileSync(path.join(__dirname,'../../static/goods_detail.json'),'utf8'))
+      const data = res[0]
+      data.goods_detail = json.goods_detail
       ctx.body = {
         code: 200,
         msg: 'success',
         data: {
-          data: data[0]
+          data
         }
       }
     } else {

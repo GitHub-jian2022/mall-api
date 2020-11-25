@@ -2,7 +2,7 @@ const { verify }= require("../utils/jwt");
 
 async function auth(ctx,next){
   const { token } = ctx.request.header
-  console.log('token: ', token);
+  // console.log('token: ', token);
 
 
   if(verify(token).success){
